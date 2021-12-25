@@ -1,4 +1,4 @@
-# YouTube-concept_GloAcademy - course by GloAcademy[https://glo-academy.org] text [link](https://www.cyberforum.ru/ "CyberForum.ru") text
+# YouTube-concept_GloAcademy - course by GloAcademy [link](https://glo-academy.org "GloAcademy.org")
 
 Owner: Berezhnev Vladimir
 

@@ -2,3 +2,64 @@
 * {
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container .sidebar {
+  padding-left: 32px;
+}
+
+.container .sidebar .nav .nav-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+.container .sidebar .nav .nav-menu {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 60px;
+  list-style-type: none;
+}
+
+.container .sidebar .nav .nav-menu .nav-item {
+  color: #898989;
+}
+
+.container .sidebar .nav .nav-menu .nav-item .nav-link {
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  color: #898989;
+  text-decoration: none;
+}
+
+.container .sidebar .nav .nav-menu .nav-item .nav-link .nav-text {
+  margin-left: 13px;
+}
+
+.container .sidebar .nav .nav-menu .nav-item .nav-link:hover {
+  color: #FF0000;
+}
+
+.container .sidebar .nav .nav-menu .nav-item .nav-link:hover .icon {
+  fill: #FF0000;
+}
+
+.container .sidebar .nav .nav-menu .nav-item .nav-link > img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.container .sidebar .nav .nav-menu .nav-item .icon {
+  fill: #898989;
+}

@@ -10,6 +10,7 @@
   padding-bottom: 20px;
   padding-left: 32px;
   padding-right: 70px;
+  margin-bottom: 30px;
 }
 
 .header .header__logo {
@@ -51,6 +52,7 @@
 .header .input-group .input-search {
   background-color: transparent;
   border: none;
+  width: 100%;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 23px;

@@ -7,3 +7,76 @@ $mulish: 'Mulish', sans-serif;
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: $mulish;
+}
+
+.container {
+    .sidebar {
+        padding-left: 32px;
+
+        .nav {
+
+            .nav-title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 23px;
+            
+                margin-bottom: 30px;
+            }
+
+            .nav-menu {
+                padding-left: 0;
+                margin-top: 0;
+                margin-bottom: 60px;
+
+                list-style-type: none;
+
+                .nav-item {
+                    color: #898989;
+
+                    .nav-link {
+                        margin-bottom: 28px;
+                        display: flex;
+                        align-items: center;    
+
+                        color: #898989;
+                        text-decoration: none;
+
+                        .icon {
+    
+                        }
+    
+                        .nav-text {
+                            margin-left: 13px;
+                        }
+                    }
+
+                    .nav-link:hover {
+                        color: #FF0000;
+                    }
+
+                    .nav-link:hover .icon{
+                        fill: #FF0000;
+                    }
+
+                    .nav-link > img {
+                        width: 26px;
+                        height: 26px;
+
+                        border-radius: 50%;
+                    }
+                }
+
+                .nav-item .icon {
+                    fill: #898989;
+                }
+            }
+        }
+    }
+}

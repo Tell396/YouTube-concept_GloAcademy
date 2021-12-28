@@ -6,11 +6,17 @@
 .header {
   display: flex;
   align-items: center;
+  z-index: 5;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 32px;
   padding-right: 70px;
   margin-bottom: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
 }
 
 .header .header__logo {

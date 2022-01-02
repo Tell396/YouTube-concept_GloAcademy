@@ -8,4 +8,6 @@ Owner: Berezhnev Vladimir
 - Scss
 - CSS
 - Normalize.css
-- SVG Sprites
+- SVG Sprites7
+- JavaScript
+- Swiper.js

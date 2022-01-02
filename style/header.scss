@@ -25,6 +25,10 @@ $mulish: 'Mulish', sans-serif;
   width: 100%;
   background-color: #fff;
 
+  .mobile-search {
+    display: none;
+  }
+
   .header__logo {
     margin-right: 59px;
   }
@@ -64,6 +68,7 @@ $mulish: 'Mulish', sans-serif;
 
     max-width: 830px;
     width: 50%;
+    margin-right: 40px;
 
     .input-search {
       background-color: transparent;
@@ -97,11 +102,14 @@ $mulish: 'Mulish', sans-serif;
     }
   }
 
+
   .icons {
     display: flex;
     align-items: center;
 
     margin-left: auto;
+
+
 
     .icons-link {
       text-decoration: none;
@@ -125,4 +133,7 @@ $mulish: 'Mulish', sans-serif;
       height: 40px;
     }
   }
+
+
 }
+

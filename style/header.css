@@ -19,6 +19,10 @@
   background-color: #fff;
 }
 
+.header .mobile-search {
+  display: none;
+}
+
 .header .header__logo {
   margin-right: 59px;
 }
@@ -53,6 +57,7 @@
   padding-right: 20px;
   max-width: 830px;
   width: 50%;
+  margin-right: 40px;
 }
 
 .header .input-group .input-search {

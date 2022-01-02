@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/adaptive.css">
   </head>
   <body>
     <header class="header">
@@ -36,6 +37,12 @@
             <use xlink:href="img/icons.svg#search"></use>
           </svg>
         </button>
+      </div>
+
+      <div class="mobile-search">
+        <svg class="icon icon-search" width="19px" height="19px">
+          <use xlink:href="img/icons.svg#search"></use>
+        </svg>
       </div>
 
       <div class="icons">
@@ -66,6 +73,46 @@
         />
       </a>
     </header>
+
+    <div class="mobile-sidebar">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon icon-home" width="20" height="19">
+              <use xlink:href="img/icons.svg#home"></use>
+            </svg>
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon icon-trending" width="20" height="19">
+              <use xlink:href="img/icons.svg#trending"></use>
+            </svg>
+            <span class="nav-text">Trending</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon icon-subscriptions" width="18" height="18">
+              <use xlink:href="img/icons.svg#subscriptions"></use>
+            </svg>
+            <span class="nav-text">Subscriptions</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon icon-library" width="20" height="19">
+              <use xlink:href="img/icons.svg#library"></use>
+            </svg>
+            <span class="nav-text">Library</span>
+          </a>
+        </li>
+      </ul>
+    </div>
 
     <div class="container">
       <aside class="sidebar">

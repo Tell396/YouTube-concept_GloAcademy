@@ -89,7 +89,7 @@ const mobileSearch = () => {
 
 
 if (document.documentElement.scrollWidth <= 640) {
-  swiperMyChannel.destroy()
-  swiperRecommended.destroy()
-  swiperFoodDrink.destroy()
+  swiperMyChannel.remove()
+  swiperRecommended.remove()
+  swiperFoodDrink.remove()
 }
